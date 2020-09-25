@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/melo-d-app/static/css/main.50166c3e.chunk.css",
+    "main.js": "/melo-d-app/static/js/main.c02149dd.chunk.js",
+    "main.js.map": "/melo-d-app/static/js/main.c02149dd.chunk.js.map",
+    "runtime-main.js": "/melo-d-app/static/js/runtime-main.a97d7603.js",
+    "runtime-main.js.map": "/melo-d-app/static/js/runtime-main.a97d7603.js.map",
+    "static/js/2.734b6da0.chunk.js": "/melo-d-app/static/js/2.734b6da0.chunk.js",
+    "static/js/2.734b6da0.chunk.js.map": "/melo-d-app/static/js/2.734b6da0.chunk.js.map",
+    "index.html": "/melo-d-app/index.html",
+    "precache-manifest.8de6bbfa9318316bfe3976773b841e33.js": "/melo-d-app/precache-manifest.8de6bbfa9318316bfe3976773b841e33.js",
+    "service-worker.js": "/melo-d-app/service-worker.js",
+    "static/css/main.50166c3e.chunk.css.map": "/melo-d-app/static/css/main.50166c3e.chunk.css.map",
+    "static/js/2.734b6da0.chunk.js.LICENSE.txt": "/melo-d-app/static/js/2.734b6da0.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a97d7603.js",
+    "static/js/2.734b6da0.chunk.js",
+    "static/css/main.50166c3e.chunk.css",
+    "static/js/main.c02149dd.chunk.js"
+  ]
+}
