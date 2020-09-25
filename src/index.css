@@ -1,0 +1,198 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* background-color:  */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.search-bar-container {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Montserrat";
+  margin-bottom: 50px;
+}
+
+.title {
+  cursor: default;
+}
+
+.title h1 {
+  color: #222;
+}
+
+.credentials a {
+  text-decoration: none;
+  color: royalblue;
+  font-size: 1rem;
+}
+
+.search-bar-form {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  margin: 1em auto;
+  /* background-color: rebeccapurple; */
+}
+
+.suggestions-wrapper {
+  text-align: left;
+  position: relative;
+  width: 50%;
+}
+
+.search-label {
+  font-size: 1.2rem;
+  margin-bottom: 0.5em;
+  color: #222;
+  font-weight: 500;
+}
+
+.search-bar-input {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+
+  font-size: 1.2em;
+  padding: 0.2em;
+}
+
+.suggestions-list {
+  position: absolute;
+  display: block;
+  margin: 0.5em auto;
+  width: 100%;
+  list-style: none;
+  background-color: antiquewhite;
+  z-index: 2;
+}
+
+.suggestions-list li {
+  border: 1px solid #222;
+  padding: 0.2em;
+  color: #222;
+  font-weight: 500;
+  border-radius: 5px;
+  margin-bottom: 0.2em;
+  font-size: 1.2rem;
+  cursor: pointer;
+  text-align: left;
+}
+
+.suggestions-list li:hover {
+  background-color: rgb(187, 187, 187);
+}
+
+.hide {
+  display: none;
+}
+
+.btn-wrap button,
+.get-info-btn button {
+  display: block;
+  margin: auto;
+  font-size: 1.5rem;
+  padding: 0.2em 0.5em;
+  border: 2px solid #222;
+  background-color: #222;
+  color: antiquewhite;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-wrap button:hover,
+.get-info-btn button:hover {
+  background-color: antiquewhite;
+  color: #222;
+}
+
+.songs-list {
+  margin-top: 3em;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-evenly;
+  /* align-items: center; */
+  /* display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 30px;
+  grid-row-gap: 80px; */
+}
+
+.song-card {
+  min-width: 25%;
+  max-width: 30%;
+  margin: 2em 1.1em;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.song-card a {
+  text-decoration: none;
+  color: black;
+}
+
+.song-card img {
+  display: block;
+  width: 100%;
+  min-height: 350px;
+  object-fit: cover;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px 1px black;
+  cursor: pointer;
+}
+
+.song-card h2 {
+  font-size: 1.3rem;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.song-card h2:hover {
+  color: #333;
+}
+
+.song-card p {
+  color: #222;
+}
+
+.song-info {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-top: 1em;
+}
+
+.get-info-btn {
+  min-width: 30%;
+}
+
+.get-info-btn button {
+  font-size: 1.2rem;
+  padding: 0.2em 0.8em;
+}
