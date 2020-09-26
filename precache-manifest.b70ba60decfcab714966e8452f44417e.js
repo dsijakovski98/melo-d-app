@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ae4b88acf393a65167d152ce7118d877",
+    "revision": "e64489642ebceb62342d049a374c25d2",
     "url": "/melo-d-app/index.html"
   },
   {
-    "revision": "8fd4f2f7e0ad5ce45e80",
-    "url": "/melo-d-app/static/css/main.50166c3e.chunk.css"
+    "revision": "54b8ecd8d0966c1f74d7",
+    "url": "/melo-d-app/static/css/main.bc8aaf5a.chunk.css"
   },
   {
     "revision": "858b1bdb1eac9923b85d",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/melo-d-app/static/js/2.734b6da0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8fd4f2f7e0ad5ce45e80",
-    "url": "/melo-d-app/static/js/main.c02149dd.chunk.js"
+    "revision": "54b8ecd8d0966c1f74d7",
+    "url": "/melo-d-app/static/js/main.c3538cfa.chunk.js"
   },
   {
     "revision": "7076a7d29c49a006a5f3",

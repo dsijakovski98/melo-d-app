@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/melo-d-app/precache-manifest.8de6bbfa9318316bfe3976773b841e33.js"
+  "/melo-d-app/precache-manifest.b70ba60decfcab714966e8452f44417e.js"
 );
 
 self.addEventListener('message', (event) => {
