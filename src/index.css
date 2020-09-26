@@ -11,7 +11,6 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* background-color:  */
 }
 
 code {
@@ -55,7 +54,6 @@ code {
   justify-content: space-around;
   align-items: flex-end;
   margin: 1em auto;
-  /* background-color: rebeccapurple; */
 }
 
 .suggestions-wrapper {
@@ -134,11 +132,6 @@ code {
   display: flex;
   flex-flow: wrap;
   justify-content: space-evenly;
-  /* align-items: center; */
-  /* display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-column-gap: 30px;
-  grid-row-gap: 80px; */
 }
 
 .song-card {
@@ -161,12 +154,13 @@ code {
   width: 100%;
   min-height: 350px;
   object-fit: cover;
-  border-radius: 5px;
-  box-shadow: 0px 0px 5px 1px black;
+  box-shadow: -3px -3px 8px 1px rgb(61, 60, 60);
   cursor: pointer;
+  clip-path: circle(85% at 20% 20%);
 }
 
 .song-card h2 {
+  text-align: center;
   font-size: 1.3rem;
   cursor: pointer;
   transition: color 0.3s ease;
@@ -177,6 +171,7 @@ code {
 }
 
 .song-card p {
+  text-align: center;
   color: #222;
 }
 
@@ -190,9 +185,47 @@ code {
 
 .get-info-btn {
   min-width: 30%;
+  transform: translate(5px, -50px);
 }
 
 .get-info-btn button {
+  /* width: 100%; */
   font-size: 1.2rem;
-  padding: 0.2em 0.8em;
+  padding: 0.3em 0.8em;
+}
+
+@media (max-width: 1000px) {
+  .btn-wrap button {
+    font-size: 1.3rem;
+  }
+
+  .songs-list {
+    flex-direction: column;
+  }
+
+  .song-card {
+    min-width: 50%;
+    margin: 2em auto;
+  }
+
+  html {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 800px) {
+  .song-card {
+    min-width: 300px;
+  }
+
+  .btn-wrap button {
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    flex-direction: column;
+    text-align: center;
+  }
 }
